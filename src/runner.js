@@ -7,7 +7,7 @@ const options = {
     globals: require('./postman_globals.json'),
     insecure: true,
     iterationCount: 1,
-    folder: ["Авторизація", "MoneyBox | Поповнення Збиралочки"],
+    folder: [],
     reporters: ['cli', 'htmlextra'],
     reporter: {
         htmlextra: {
