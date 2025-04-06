@@ -1,0 +1,16 @@
+{
+  "name": "postmantestrunner",
+  "version": "1.0.0",
+  "description": "Postman Test Runner with HTML reports and live preview",
+  "main": "src/runner.js",
+  "scripts": {
+    "test": "node src/runner.js"
+  },
+  "keywords": [],
+  "author": "Andrii Dydyk",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^6.1.2",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
